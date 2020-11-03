@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>CODE@GWA</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="cont">
-    <div class="main">
-        <img src="assets/logo.png" alt="Logo">
-        <a class="downloadBtn" target="_blank" href="https://drive.google.com/drive/folders/1BcJ5bIeU_XmnQZtoZOIe0_aulg5zUJpx?usp=sharing">Python Notebooks   <img src="assets/icons/google-drive.svg"></a>
-        <a class="watchBtn" target="_blank" href="https://www.youtube.com/channel/UCT1o9bgogKTVLANlyH6w8rQ">Lessons  <img src="assets/icons/youtube.svg"></a>
-        <a class="overviewBtn" target="_blank" href="https://drive.google.com/file/d/1umy3f5ZmUwOxnVWSn-WhvieYjeekeh90/view?usp=sharing">Overview 2020  <img src="assets/icons/file-pdf.svg"></a>
-    </div>
+      <div class="main">
+        <img src="assets/logo.png" alt="Logo" />
+        <a
+          class="downloadBtn"
+          target="_blank"
+          href="https://drive.google.com/drive/folders/1BcJ5bIeU_XmnQZtoZOIe0_aulg5zUJpx?usp=sharing"
+          >Python Notebooks <img src="assets/icons/google-drive.svg"
+        /></a>
+        <a
+          class="watchBtn"
+          target="_blank"
+          href="https://www.youtube.com/channel/UCT1o9bgogKTVLANlyH6w8rQ"
+          >Lessons <img src="assets/icons/youtube.svg"
+        /></a>
+        <a
+          class="overviewBtn"
+          target="_blank"
+          href="https://drive.google.com/file/d/1umy3f5ZmUwOxnVWSn-WhvieYjeekeh90/view?usp=sharing"
+          >Overview 2020 <img src="assets/icons/file-pdf.svg"
+        /></a>
+        <a
+          class="qaBtn"
+          target="_blank"
+          href="https://docs.google.com/document/d/1isPsFKURPZmC3_tRvkoU1sA6DpyI9vrqCLIbIaFjwdQ/edit?usp=sharing"
+          >Q&A Document <img src="assets/icons/file-pdf.svg"
+        /></a>
+      </div>
     </div>
 
     <canvas class="background"></canvas>
     <script src="particles.min.js"></script>
     <script>
-        window.onload = function() {
-            Particles.init({
-                selector: '.background',
-                maxParticles: 80,
-                color: "#C4C4C4",
-                connectParticles: true,
-                minDistance: 150,
-                speed: 0.45
-            });
-        };
+      window.onload = function () {
+        Particles.init({
+          selector: ".background",
+          maxParticles: 80,
+          color: "#C4C4C4",
+          connectParticles: true,
+          minDistance: 150,
+          speed: 0.45,
+        })
+      }
     </script>
-</body>
+  </body>
 </html>
